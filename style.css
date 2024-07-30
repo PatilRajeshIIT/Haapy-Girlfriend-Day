@@ -32,12 +32,12 @@ body {
   text-align: center;
   align-items: center;
   gap: 20px;
-  max-width: 500px;
+  max-width: 400px;
   margin: 20px;
 }
 
 .container .tenor-gif-embed {
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
 }
 
