@@ -1,114 +1,114 @@
-/* author - deepak tiwari */
+/* Author - Rajesh Patil */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffe5e5;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe5e5;
 }
 
 .main-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  text-align: center;
-  margin-top: 20vh; /* Centering the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 20vh; /* Centering the content */
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  gap: 20px;
-  max-width: 400px;
-  margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
 }
 
 .container .tenor-gif-embed {
-  max-width: 400px;
-  width: 100%;
+    max-width: 400px;
+    width: 100%;
 }
 
 .container h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .container h4 {
-  font-size: 1.2em;
-  margin-bottom: 20px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 .container .btn {
-  display: flex;
-  gap: 25px;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn a {
-  text-decoration: none;
-  color: #111;
-  background: #fff;
-  padding: 10px 25px;
-  border-radius: 8px;
-  box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+    text-decoration: none;
+    color: #111;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
 }
 
 .btn a:hover {
-  background-color: rgb(255, 0, 0);
-  color: #fff;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
 }
 
 footer {
-  padding: 20px;
-  background-color: #ffcccc;
-  width: 100%;
-  text-align: center;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffcccc;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
-  font-size: 1em;
-  color: #333;
+    font-size: 1em;
+    color: #333;
 }
 
 footer span {
-  color: red;
+    color: red;
 }
 
 @media (max-width: 600px) {
-  .container {
-      max-width: 90%;
-      padding: 10px;
-  }
+    .container {
+        max-width: 90%;
+        padding: 10px;
+    }
 
-  .container h1 {
-      font-size: 1.5em;
-  }
+    .container h1 {
+        font-size: 1.5em;
+    }
 
-  .container h4 {
-      font-size: 1em;
-  }
+    .container h4 {
+        font-size: 1em;
+    }
 
-  .btn a {
-      padding: 8px 16px;
-      margin: 5px;
-  }
+    .btn a {
+        padding: 8px 16px;
+        margin: 5px;
+    }
 
-  footer p {
-      font-size: 0.9em;
-  }
+    footer p {
+        font-size: 0.9em;
+    }
 }
